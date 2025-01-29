@@ -22,7 +22,7 @@ RUN apt update && apt install -y --no-install-recommends \
     libncurses5-dev libncursesw5-dev quilt automake qemu qemu-kvm libvirt-clients libvirt-daemon-system \
     virtinst bridge-utils ebtables cscope libgpgme-dev libgpgme11 gdb strace libssl-dev rsync flex bc \
     dos2unix locate bison ccache ecj fastjar file g++ gettext java-propose-classpath libelf-dev \
-    python3-distutils python3-setuptools python3-dev time xsltproc zlib1g-dev device-tree-compiler zstd libgnutls28-dev && \
+    python3-distutils python3-setuptools python3-dev time xsltproc zlib1g-dev device-tree-compiler zstd libgnutls28-dev help2man && \
     rm -rf /var/lib/apt/lists/*
 
 # Generate locale
